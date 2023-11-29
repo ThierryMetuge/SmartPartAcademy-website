@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>SmartPath Academy</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body id="myPage">
+
+<!-- Sidebar on click -->
+<nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-xxlarge" style="display:none;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-display-topright w3-text-teal">Close
+    <i class="fa fa-remove"></i>
+  </a>
+  <a href="#" class="w3-bar-item w3-button">ACCA</a>
+  <a href="#" class="w3-bar-item w3-button">CIMA</a>
+  <a href="#" class="w3-bar-item w3-button">Cert BA</a>
+  <a href="#" class="w3-bar-item w3-button">DiplFR</a>
+  <a href="#" class="w3-bar-item w3-button">FIA</a>
+</nav>
+
+<!-- Navbar -->
+<div class="w3-top">
+ <div class="w3-bar w3-theme-d2 w3-left-align">
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-teal"><img src="Img/logo1.png" alt="logo" style="width: 40%; min-height: 50%;max-height: 50%;">SmartPath Academy</a>
+  <a href="#team" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Team</a>
+  <a href="#work" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Work</a>
+  <a href="#pricing" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Price</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+    <button class="w3-button" title="Notifications"> programmes <i class="fa fa-caret-down"></i></button>     
+    <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+      <a href="#" class="w3-bar-item w3-button">Executive Education</a>
+      <a href="#" class="w3-bar-item w3-button">Professional</a>
+      <a href="#" class="w3-bar-item w3-button">Postgraduate Cert</a>
+    </div>
+  </div>
+  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-teal" title="Search"><i class="fa fa-search"></i></a>
+ </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+    <a href="#team" class="w3-bar-item w3-button">Team</a>
+    <a href="#work" class="w3-bar-item w3-button">Work</a>
+    <a href="#pricing" class="w3-bar-item w3-button">Price</a>
+    <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    <a href="#" class="w3-bar-item w3-button">Search</a>
+  </div>
+</div>
+
+<!-- Image Header -->
+<div class="w3-display-container w3-animate-opacity">
+  <img src="Img/background.jpg" alt="smilling" style="width:100%;min-height:350px;max-height:950px;">
+  <div class="w3-container w3-display-bottomleft w3-margin-bottom">  
+    <p>SmartPath Academy</p>
+  </div>
+</div>
+
+<!-- Team Container -->
+<div class="w3-container w3-padding-64 w3-center" id="team">
+<h2>OUR TEAM</h2>
+<p>Meet some of our experienced tutors:</p>
+
+<div class="w3-row"><br>
+
+<div class="w3-quarter">
+  <img src="Img/Micheal.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3> Dr. Micheal Scofield</h3>
+  <p>BA, MBA, PHD, Director of Pedagogy.</p>
+</div>
+
+<div class="w3-quarter">
+  <img src="Img/Donna.webp" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>Danna Paulsen</h3>
+  <p>CIMA, Msc.</p>
+</div>
+
+<div class="w3-quarter">
+  <img src="Img/Peter.avif" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>Peter Cambell</h3>
+  <p>BA, ACA, ACCA.</p>
+</div>
+
+<div class="w3-quarter">
+  <img src="Img/Tommy.jfif" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>Tommy Shelby</h3>
+  <p>ACCA, MBA, Senior Tutor.</p>
+</div>
+
+</div>
+</div>
+
+<!-- Work Row -->
+<div class="w3-row-padding w3-padding-64 w3-theme-l1" id="work">
+
+<div class="w3-quarter">
+<h2>Our Work</h2>
+<p>SmartPath Academy was established in August 2012 by a team of professional and highly experienced accounting and finance tutors with a zest for quality and professionalism. Our mission is to help accounting and finance professionals achieve their goals and realise their potential.</p>
+<p>We aim at becoming the first choice accountancy and finance tuition provider for students and employers. To help achieve this aim we employ only experienced tutors, provide high quality course notes written by subject specialists with state of the art teaching facilities and first class customer service.</p>
+<p>We offer a range of courses for ACCA, CIMA, ICAG professional qualifications. We also offer short and bespoke courses to meet the specific needs of any organisation.</p>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="Img/passrate.jfif" alt="pass" style="width:100%">
+  <div class="w3-container">
+  <h3>Outstanding pass rates</h3>
+  <p>92% of our students that completed our full Learning programme passed their exams (92% was an average of all our qualification courses over the last 2 years at the time of writing).</p>
+  <p>We’re very proud of our 92% pass rate but if you are unlucky and have a bad day at the exam we provide a full pass guarantee – if you complete your full course and still fail your exam we will provide you with another complete course free of charge.</p>
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="Img/tutors.jfif" alt="tutors" style="width:100%">
+  <div class="w3-container">
+  <h3>Exceptional tutors</h3>
+  <p>ExP utilise some of the very best ACCA tutors in the world whether they are full time ExP tutors or part of the ExP permalancer network.</p>
+  <p>Our focus is to blend exceptional tutors, ACCA approved materials and cutting edge Learning platforms to enable you to pass your exams in an efficient and effective way as possible.</p>
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="Img/studymaterial.jfif" alt="studymaterial" style="width:100%">
+  <div class="w3-container">
+  <h3>Approved materials</h3>
+  <p>Approved Study Text and Exam Kits are included in your ExP course.</p>
+  <p>ExP is an independent company and is not tied to having to use an in-house publisher. We can choose to work with the publisher whose books we believe best complement our courses and maximise your chances of success in your exams.></p>
+  </div>
+  </div>
+</div>
+
+</div>
+
+<!-- Container -->
+<div class="w3-container" style="position:relative">
+  <a onclick="w3_open()" class="w3-button w3-xlarge w3-circle w3-teal"
+  style="position:absolute;top:-28px;right:24px">+</a>
+</div>
+
+<!-- Pricing Row -->
+<div class="w3-row-padding w3-center w3-padding-64" id="pricing">
+    <h2>PRICING</h2>
+    <p>Choose a Study Method that fits your needs .</p><br>
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-hover-shadow">
+        <li class="w3-theme">
+          <p class="w3-xlarge">Distance Learning</p>
+        </li>
+        <li class="w3-padding-16"> Printed and Digital materials</li>
+        <li class="w3-padding-16"> Short Video Lectures</li>
+        <li class="w3-padding-16"> 2 Progress tests and Mock exams with debriefs</li>
+        <li class="w3-padding-16"> Dedicated tutor support</li>
+        <li class="w3-padding-16">
+          <span class="w3-opacity"> From:</span>  
+          <h2 class="w3-wide"><i class="fa fa-eur"></i> 350</h2>
+        </li>
+        <li class="w3-theme-l5 w3-padding-24">
+          <button class="w3-button w3-teal w3-padding-large"><i class="fa fa-check"></i> Build your package</button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-hover-shadow">
+        <li class="w3-theme-l2">
+          <p class="w3-xlarge">Live Tuition + Live Revision</p>
+        </li>
+        <li class="w3-padding-16"> Global Live Online Tuition sessions with notes + recordings</li>
+        <li class="w3-padding-16"> Global Live Online Revision sessions, notes + recordings</li>
+        <li class="w3-padding-16"> Progress tests and Mock exams with video debriefs</li>
+        <li class="w3-padding-16"> Dedicated tutor support</li>
+        <li class="w3-padding-16">
+            <span class="w3-opacity">From:</span>  
+          <h2 class="w3-wide"><i class="fa fa-eur"></i> 525</h2>
+        </li>
+        <li class="w3-theme-l5 w3-padding-24">
+          <button class="w3-button w3-teal w3-padding-large"><i class="fa fa-check"></i> Build your package</button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-hover-shadow">
+        <li class="w3-theme">
+          <p class="w3-xlarge">On-Campus</p>
+        </li>
+        <li class="w3-padding-16"> Tuition sessions with notes + recordings</li>
+        <li class="w3-padding-16"> Printed and Digital materials</li>
+        <li class="w3-padding-16"> Revision sessions, notes + recordings</li>
+        <li class="w3-padding-16"> Marked mock exam with video debrief</li>
+        <li class="w3-padding-16">
+            <span class="w3-opacity">From:</span>
+            <h2 class="w3-wide"><i class="fa fa-eur"></i> 950</h2>
+        </li>
+        <li class="w3-theme-l5 w3-padding-24">
+          <button class="w3-button w3-teal w3-padding-large"><i class="fa fa-check"></i> Build your package</button>
+        </li>
+      </ul>
+    </div>
+</div>
+
+<!-- Contact Container -->
+<div class="w3-container w3-padding-64 w3-theme-l5" id="contact">
+  <div class="w3-row">
+    <div class="w3-col m5">
+    <div class="w3-padding-16"><span class="w3-xlarge w3-border-teal w3-bottombar">Contact Us</span></div>
+      <h3>Address</h3>
+      <p><i class="fa fa-map-marker w3-text-teal w3-xlarge"></i>  Plaza Business Park, Äyritie 16B B, 4th Floor.  01510 Vantaa, Finland</p>
+      <p><i class="fa fa-phone w3-text-teal w3-xlarge"></i>  +358 40515151</p>
+      <p><i class="fa fa-envelope-o w3-text-teal w3-xlarge"></i>  info@SmartPath.com</p>
+    </div>
+    <div class="w3-col m7">
+      <form class="w3-container w3-card-4 w3-padding-16 w3-white" action="/action_page.php" target="_blank">
+      <div class="w3-section">      
+        <label>Name</label>
+        <input class="w3-input" type="text" name="Name" required>
+      </div>
+      <div class="w3-section">      
+        <label>Email</label>
+        <input class="w3-input" type="text" name="Email" required>
+      </div>
+      <div class="w3-section">      
+        <label>Message</label>
+        <input class="w3-input" type="text" name="Message" required>
+      </div>  
+      <input class="w3-check" type="checkbox" checked name="Like">
+      <label>I Like it!</label>
+      <button type="submit" class="w3-button w3-right w3-theme">Send</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Image of location/map -->
+<img src="Img/Location.png" alt="lacation" style="width:80%">
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
+  <h4>Follow Us</h4>
+  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Facebook"><i class="fa fa-facebook"></i></a>
+  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Twitter"><i class="fa fa-twitter"></i></a>
+  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Google +"><i class="fa fa-google-plus"></i></a>
+  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Google +"><i class="fa fa-instagram"></i></a>
+  <a class="w3-button w3-large w3-teal w3-hide-small" href="javascript:void(0)" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+  
+
+  <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
+    <span class="w3-text w3-padding w3-teal w3-hide-small">Go To Top</span>   
+    <a class="w3-button w3-theme" href="#myPage"><span class="w3-xlarge">
+    <i class="fa fa-chevron-circle-up"></i></span></a>
+  </div>
+</footer>
+
+<script>
+// Script for side navigation
+function w3_open() {
+  var x = document.getElementById("mySidebar");
+  x.style.width = "300px";
+  x.style.paddingTop = "10%";
+  x.style.display = "block";
+}
+
+// Close side navigation
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
